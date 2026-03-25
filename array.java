@@ -34,7 +34,84 @@ public class fare {
                     System.out.print(num + " ");
                 }
 
+// multi-dimensional array
+        int num[][] = new int[3][4];
 
+        for(int i = 0 ; i<3 ; i++)
+
+        {  for(int j =0; j <4 ; j++)
+        {
+            System.out.println(num[i][j] + "  ");
+        }
+            System.out.println();
+
+// for random  values 
+         int num[][] = new int[3][4];
+        for(int i = 0 ; i<3 ; i++)
+
+        {  for(int j =0; j <4 ; j++)
+        {
+            num[i][j] = (int)(Math.random() * 100); // because it , gives float, double values , so we convert them in int .
+        }
+        }
+
+        for(int i = 0 ; i<3 ; i++)
+
+        {  for(int j =0; j <4 ; j++)
+        {
+            System.out.println(num[i][j] + "  ");
+        }
+            System.out.println();}
+
+    }
+}
+// for enhance for loops
+    for(int n[] : num)
+    {
+    for(int m:n)
+        {
+            sout(m + " ");}}
+// by advance for loop
+
+        int num[][] = new int[3][4];
+        for(int i = 0 ; i<3 ; i++)
+
+      {  for(int j =0; j <4 ; j++)
+       {
+           num[i][j] = (int)(Math.random() * 100);
+     }
+       }
+        for(int n[] : num)
+        {
+            for(int m : n)
+            {
+                System.out.println(m + "  ");
+
+            }
+            System.out.println();
+        }
+
+// jagged array
+int num[][] = new int[3][];
+nums[0] = new int[6];
+nums[1] = new int[4];
+    nums[2] = new int[5];
+for(int i =0 ; i<num.length ; i++)
+    {
+for(int j = 0 ;j<nums[i].length;j++)
+num[i][j] = (int)(Math.random() * 100);
+    }}
+for(int n[] : num)
+{
+    for(int m : n )
+        {
+            sout(m + " ");
+        } sout():
+
+}
+
+
+    
 
 
 
