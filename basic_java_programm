@@ -1,1 +1,19 @@
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println(" enter the  Principle amount : " +
+                "\n enter the Time : " +
+                "\n Enter the Rate % : ");
+        int P = input.nextInt();
+        int T = input.nextInt();
+        int R = input.nextInt();
 
+        int Total_intrest = P * T * R /100;
+
+        System.out.println(" the simple intrest is : " + Total_intrest);
+
+
+
+    }
+}
