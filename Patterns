@@ -100,6 +100,19 @@ for(int row=1;row<=n;row++){
 
 
 
+          // Pyramid
+            for (int col = 1; col <= 2 * row - 1; col++) {
+
+                if (row == n || col == 1 || col == 2 * row - 1) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+            }
+
+            System.out.println();
+        }
+
 
 
 
