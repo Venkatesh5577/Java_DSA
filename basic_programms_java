@@ -212,3 +212,17 @@ public class Main
         System.out.println("long: " + val);  
     }  
 }
+
+
+
+Scanner input = new Scanner(System.in);
+//        System.out.println("enter the input number dividor : ");
+//        int n = input.nextInt();
+//
+//        if(n%5==0){
+//            System.out.println("divisible");
+//
+//        }else{
+//            System.out.println("no");
+//        }
+//
