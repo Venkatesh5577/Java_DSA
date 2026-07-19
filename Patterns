@@ -379,5 +379,20 @@ public static void main(String args[]){
         }
 
 
+        int n = input.nextInt();
+        for (int i = 0; i < n; i++) {
+
+            char ch = (char) ('a' + i);
+
+            if (i % 2 == 1) {
+                ch = Character.toUpperCase(ch);
+            }
+
+            for (int j = 0; j < n; j++) {
+                System.out.print(ch + " ");
+            }
+
+            System.out.println();
+        }
 
 
